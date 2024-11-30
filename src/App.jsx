@@ -12,7 +12,7 @@ import Verify from './pages/Verify'
 
 const App = () => {
   return (
-    <main>
+    <main className='overflow-hidden text-[#404040] bg-primary'>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
