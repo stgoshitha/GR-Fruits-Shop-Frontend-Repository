@@ -9,11 +9,11 @@ import { GiFruitBowl } from 'react-icons/gi'
 
 const Hero = () => {
   return (
-      <section className='mx-auto max-w-[1500px] '>
-        <div className='relative bg-hero bg-cover bg-no-repeat h-[700px] flex justify-center items-center'>
-          <div>
-            <div className='mx-auto max-w-[1440px] px-6 lg:px-12 relative sm-top-72 text-white'>
-              
+      <section className='mx-auto max-w-full'>
+        <div className='relative bg-hero bg-cover bg-no-repeat lg:h-[850px] sm:h-[1000px] flex justify-center items-center gap-8 '>
+          <div className='mt-16'>
+            <div className='mx-auto max-w-[1440px] px-6 lg:px-12 relative sm-top-72 text-white '>
+        
               {/* Title Section */}
               <h1 className='text-[45px] leading-tight md:text-[55px] md:leading-[1.3] mb-4 font-bold max-w-[44rem] capitalize'>
                 Locally produced delivered direct <span className='text-secondary'>to your door</span>
@@ -47,8 +47,8 @@ const Hero = () => {
           </div>
 
           {/* main image in hero section */}
-          <div>
-            <img src={fruits} alt={'client1'} className='h-[500px] hidden md:flex'/>
+          <div className='mt-16'>
+            <img src={fruits} alt={'client1'} className='h-[600px] hidden md:flex'/>
           </div>
 
         </div>
