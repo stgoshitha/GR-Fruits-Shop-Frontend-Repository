@@ -41,7 +41,18 @@ export default {
       backgroundImage: {
         hero: "url(/src/assets/bg.png)",
         pattern: "url(/src/assets/pattern.png)",
+        benifit: "url(/src/assets/benifit.jpg)",
       },
+      animation: {
+        tilt3d: 'tilt3d 0.7s ease-in-out',
+      },
+      keyframes: {
+        tilt3d: {
+          '0%': { transform: 'rotateX(0deg)' },
+          '50%': { transform: 'rotateX(-15deg)' },
+          '100%': { transform: 'rotateX(0deg)' },
+        },
+        },
     },
   },
   plugins: [],
