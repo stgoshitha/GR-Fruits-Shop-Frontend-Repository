@@ -39,7 +39,7 @@ const Header = () => {
         
         {/* Navigation Bar */}
         <div className='flex-1'>
-          <Navbar toggleMenu={toggleMenu} menuOpened={menuOpened} containerStyle={`${menuOpened ? "flex flex-col gap-y-12 h-screen w-[222px] absolute left-0 top-0 bg-white px-5 z-50 shadow-xl py-4":"hidden xl:flex gap-x-5 xl:gap-x-8 text-[15px] rounded-full px-2 py-2"}`}/>
+          <Navbar toggleMenu={toggleMenu} menuOpened={menuOpened} containerStyle={`${menuOpened ? "flex flex-col gap-y-12 h-screen w-[222px] absolute left-0 top-0 bg-white px-5 z-50 shadow-xl py-4":"hidden xl:flex gap-x-5 xl:gap-x-8 text-[15px] rounded-full px-2 py-3"}`}/>
         </div>
 
         {/* cart and accout section */}
