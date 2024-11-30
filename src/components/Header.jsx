@@ -18,8 +18,8 @@ const Header = () => {
   }
 
   return (
-    <div>
-      <header className='py-5 w-full top-0 left-0 right-0 bg-white'>
+    <div className='fixed top-0 w-full z-50'>
+      <header className='py-5 w-full top-0 left-0 right-0 bg-white '>
         <div className='mx-auto max-w-[1440px] px-6 lg:px-12 flex-1 flex justify-between'>
 
         {/*logo*/}
@@ -39,7 +39,7 @@ const Header = () => {
         
         {/* Navigation Bar */}
         <div className='flex-1'>
-          <Navbar toggleMenu={toggleMenu} menuOpened={menuOpened} containerStyle={`${menuOpened ? "flex flex-col gap-y-12 h-screen w-[222px] absolute left-0 top-0 bg-white px-5 z-50 shadow-xl py-4":"hidden xl:flex gap-x-5 xl:gap-x-8 text-[15px] rounded-full px-2 py-3"}`}/>
+          <Navbar toggleMenu={toggleMenu} menuOpened={menuOpened} containerStyle={`${menuOpened ? "flex flex-col gap-y-12 h-screen w-[250px] absolute left-0 top-0 bg-white px-5 z-50 shadow-xl py-4 sm:gap-y-8":"hidden xl:flex gap-x-5 xl:gap-x-8 text-[15px] rounded-full px-2 py-3"}`}/>
         </div>
 
         {/* cart and accout section */}
