@@ -9,7 +9,7 @@ import { TbArrowNarrowRight, TbUserCircle} from 'react-icons/tb'
 
 const Header = () => {
 
-  const[menuOpened,setMenuOpened] = useState(false);
+  const[menuOpened,setMenuOpened] = useState();
   const[token,setToken] = useState('')
   const navigate = useNavigate()
 
@@ -59,7 +59,7 @@ const Header = () => {
             </div>
 
             {token && <>
-              <ul className='bg-white shadow-sm p-2 w-32 ring-1 ring-slate-900/15 rounded absolute right-0 top-10 hidden group-hover:flex flex-col'>
+              <ul className='bg-white shadow-sm p-2 w-32 ring-1 ring-slate-900/15 rounded absolute right-0 top-15 hidden group-hover:flex flex-col'>
                 <li onClick={()=>navigate('/orders')}className='flex items-center justify-between cursor-pointer'><p>Orders</p><TbArrowNarrowRight className='opacity-50 text-[19px]'/></li>
                 <hr className='my-2' />
                 <li className='flex items-center justify-between cursor-pointer'><p>Logout</p><TbArrowNarrowRight className='opacity-50 text-[19px]'/></li>
