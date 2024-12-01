@@ -3,7 +3,7 @@ import React from 'react'
 const About = () => {
   return (
     <div>
-      <section className='min-h-svh bg-center bg-cover flex justify-center items-center'>
+      <section className='min-h-[700px] bg-center bg-cover flex justify-center items-center'>
           <div className="p-6 md:p-10 lg:p-20 ">
             <span className="text-4xl md:text-6xl font-semibold">About Us</span><br/><br/>
             <h1 className="text-xl md:text-3xl text-center  antialiased  leading-relaxed">
