@@ -10,6 +10,7 @@ import PlaceOrder from './pages/PlaceOrder'
 import Orders from './pages/Orders'
 import Verify from './pages/Verify'
 import Footer from './components/Footer'
+import Register from './pages/Register'
 
 const App = () => {
 
@@ -34,6 +35,7 @@ const App = () => {
         <Route path="/fruits" element={<Fruits />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/placeOreder" element={<PlaceOrder />} />
         <Route path="/orders" element={<Orders />} />
